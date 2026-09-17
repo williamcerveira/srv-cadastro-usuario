@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 import java.util.UUID;
 
 @Entity
-@Table(name = "TB-USERS")
+@Table(name = "tb-users")
 public class UserModel {
     private static final long serialVersionUID = 1L;
 
@@ -28,7 +28,7 @@ public class UserModel {
         return email;
     }
 
-    public void setName(String name) {
+    public void setName(String name){
         this.name = name;
     }
 
